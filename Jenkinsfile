@@ -24,7 +24,7 @@ pipeline{
             	sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
                 sh "docker push maddysk/selenium:latest"
                 sh "docker tag maddysk/selenium:latest maddysk/selenium:${env.BUILD_NUMBER}"
-                sh "docker push vinsdocker/selenium:${env.BUILD_NUMBER}"
+                sh "docker push maddysk/selenium:${env.BUILD_NUMBER}"
             }            
         }                
 
