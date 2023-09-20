@@ -1,0 +1,9 @@
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/util/Config.java
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/util/Constants.java
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/util/JsonUtil.java
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/tests/vendorportal/model/VendorPortalTestData.java
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/tests/flightreservation/model/FlightReservationTestData.java
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/util/ResourceLoader.java
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/tests/flightreservation/FlightReservationTest.java
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/tests/vendorportal/VendorPortalTest.java
+/Users/maddysk/workspace/selenium-docker/03-automation-framework/selenium-docker/src/test/java/com/maddysk/tests/AbstractTest.java

@@ -1,0 +1,8 @@
+com/maddysk/pages/flightreservation/FlightsSelectionPage.class
+com/maddysk/pages/vendorportal/DashboardPage.class
+com/maddysk/pages/AbstractPage.class
+com/maddysk/pages/flightreservation/FlightsSearchPage.class
+com/maddysk/pages/vendorportal/LoginPage.class
+com/maddysk/pages/flightreservation/RegistrationPage.class
+com/maddysk/pages/flightreservation/RegistrationConfirmationPage.class
+com/maddysk/pages/flightreservation/FlightConfirmationPage.class
