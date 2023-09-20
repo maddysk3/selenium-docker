@@ -12,16 +12,27 @@ pipeline{
 
         stage('Build Docker Image'){
             steps{
-                sh "docker build -t=maddysk/selenium ."
+                sh "docker build -t=maddysk/selenium:latest ."
             }            
         }  
 
         stage('Push Image'){
+        	environment{
+       			 DOCKER_HUB= credentials('dockerhub-creds')
+       		}
             steps{
-                sh "docker push maddysk/selenium ."
+            	sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+                sh "docker push maddysk/selenium:latest"
+                sh "docker tag maddysk/selenium:latest maddysk/selenium:${env.BUILD_NUMBER}"
+                sh "docker push vinsdocker/selenium:${env.BUILD_NUMBER}"
             }            
         }                
 
+    }
+    post {
+    	always{
+    		sh "docker logout"
+   		}
     }
 
 }
